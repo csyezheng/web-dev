@@ -1,0 +1,9 @@
+<h2>重大利空新闻</h2>
+<table class="table">
+  <tr *ngFor="let news of newsList" [routerLink]="['/detail', news.article_id]">
+        <td>{{ news.publish_time }}</td>
+        <td>{{ news.stock_code }}</td>
+        <td>{{ news.title }}</td>
+        <td>{{ news.bull_bear }}</td>
+  </tr>
+</table>

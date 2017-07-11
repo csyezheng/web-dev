@@ -1,0 +1,18 @@
+.selected {
+  background-color: #CFD8DC !important;
+  color: white;
+}
+
+button:hover {
+  background-color: #cfd8dc;
+}
+.table tr:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+
+.table tr.selected:hover {
+  background-color: #BBD8DC !important;
+  color: white;
+}
